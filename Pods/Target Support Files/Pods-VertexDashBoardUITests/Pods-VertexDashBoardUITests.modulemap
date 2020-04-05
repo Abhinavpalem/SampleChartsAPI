@@ -1,0 +1,6 @@
+module Pods_VertexDashBoardUITests {
+  umbrella header "Pods-VertexDashBoardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

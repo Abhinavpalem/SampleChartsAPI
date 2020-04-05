@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D528AB613A10DE22117BC61 /* libPods-VertexDashBoard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1742503596A309FE651A14A /* libPods-VertexDashBoard.a */; };
+		0D7D102D3CEC3FCDB52E5A20 /* libPods-VertexDashBoardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB5E921C711A10C68127910 /* libPods-VertexDashBoardTests.a */; };
+		5FE13B052433E1ED0059A14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE13B042433E1ED0059A14B /* AppDelegate.swift */; };
+		5FE13B072433E1ED0059A14B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE13B062433E1ED0059A14B /* ViewController.swift */; };
+		5FE13B0A2433E1ED0059A14B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE13B082433E1ED0059A14B /* Main.storyboard */; };
+		5FE13B0C2433E1EF0059A14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE13B0B2433E1EF0059A14B /* Assets.xcassets */; };
+		5FE13B0F2433E1EF0059A14B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE13B0D2433E1EF0059A14B /* LaunchScreen.storyboard */; };
+		5FE13B1A2433E1F00059A14B /* VertexDashBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE13B192433E1F00059A14B /* VertexDashBoardTests.swift */; };
+		5FE13B252433E1F00059A14B /* VertexDashBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE13B242433E1F00059A14B /* VertexDashBoardUITests.swift */; };
+		B162EE903C9E712CCDF26F09 /* libPods-VertexDashBoardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14331BA01342E597A20B9290 /* libPods-VertexDashBoardUITests.a */; };
+		BA37F3702439BE1A00D0DA7F /* VTXImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37F36F2439BE1A00D0DA7F /* VTXImagePicker.swift */; };
+		BA37F3732439CC5300D0DA7F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37F3722439CC5300D0DA7F /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FE13B162433E1F00059A14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE13AF92433E1ED0059A14B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE13B002433E1ED0059A14B;
+			remoteInfo = VertexDashBoard;
+		};
+		5FE13B212433E1F00059A14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE13AF92433E1ED0059A14B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE13B002433E1ED0059A14B;
+			remoteInfo = VertexDashBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14331BA01342E597A20B9290 /* libPods-VertexDashBoardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VertexDashBoardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312179AE6E1FC3A8B6390A90 /* Pods-VertexDashBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VertexDashBoard.debug.xcconfig"; path = "Target Support Files/Pods-VertexDashBoard/Pods-VertexDashBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		5FE13B012433E1ED0059A14B /* VertexDashBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VertexDashBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE13B042433E1ED0059A14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE13B062433E1ED0059A14B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FE13B092433E1ED0059A14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE13B0B2433E1EF0059A14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE13B0E2433E1EF0059A14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE13B102433E1EF0059A14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE13B152433E1F00059A14B /* VertexDashBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VertexDashBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE13B192433E1F00059A14B /* VertexDashBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexDashBoardTests.swift; sourceTree = "<group>"; };
+		5FE13B1B2433E1F00059A14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE13B202433E1F00059A14B /* VertexDashBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VertexDashBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE13B242433E1F00059A14B /* VertexDashBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexDashBoardUITests.swift; sourceTree = "<group>"; };
+		5FE13B262433E1F00059A14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F86D7FC00F548D28C4133C /* Pods-VertexDashBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VertexDashBoardUITests.debug.xcconfig"; path = "Target Support Files/Pods-VertexDashBoardUITests/Pods-VertexDashBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68279A9B3607FAD44B51596A /* Pods-VertexDashBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VertexDashBoardTests.release.xcconfig"; path = "Target Support Files/Pods-VertexDashBoardTests/Pods-VertexDashBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BB5E921C711A10C68127910 /* libPods-VertexDashBoardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VertexDashBoardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF1C19E635C422D33936FA3 /* Pods-VertexDashBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VertexDashBoardTests.debug.xcconfig"; path = "Target Support Files/Pods-VertexDashBoardTests/Pods-VertexDashBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB79C9B8DCA7D2458B64C08C /* Pods-VertexDashBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VertexDashBoardUITests.release.xcconfig"; path = "Target Support Files/Pods-VertexDashBoardUITests/Pods-VertexDashBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA37F36F2439BE1A00D0DA7F /* VTXImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTXImagePicker.swift; sourceTree = "<group>"; };
+		BA37F3722439CC5300D0DA7F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D1742503596A309FE651A14A /* libPods-VertexDashBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VertexDashBoard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9934498520EAFD6F02FF4D1 /* Pods-VertexDashBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VertexDashBoard.release.xcconfig"; path = "Target Support Files/Pods-VertexDashBoard/Pods-VertexDashBoard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE13AFE2433E1ED0059A14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D528AB613A10DE22117BC61 /* libPods-VertexDashBoard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE13B122433E1F00059A14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7D102D3CEC3FCDB52E5A20 /* libPods-VertexDashBoardTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE13B1D2433E1F00059A14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B162EE903C9E712CCDF26F09 /* libPods-VertexDashBoardUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BDCAC4A332C0BA6EAB2A9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				312179AE6E1FC3A8B6390A90 /* Pods-VertexDashBoard.debug.xcconfig */,
+				E9934498520EAFD6F02FF4D1 /* Pods-VertexDashBoard.release.xcconfig */,
+				9DF1C19E635C422D33936FA3 /* Pods-VertexDashBoardTests.debug.xcconfig */,
+				68279A9B3607FAD44B51596A /* Pods-VertexDashBoardTests.release.xcconfig */,
+				66F86D7FC00F548D28C4133C /* Pods-VertexDashBoardUITests.debug.xcconfig */,
+				AB79C9B8DCA7D2458B64C08C /* Pods-VertexDashBoardUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FE13AF82433E1ED0059A14B = {
+			isa = PBXGroup;
+			children = (
+				5FE13B032433E1ED0059A14B /* VertexDashBoard */,
+				5FE13B182433E1F00059A14B /* VertexDashBoardTests */,
+				5FE13B232433E1F00059A14B /* VertexDashBoardUITests */,
+				5FE13B022433E1ED0059A14B /* Products */,
+				26BDCAC4A332C0BA6EAB2A9E /* Pods */,
+				B51013497C238EF5832A7B3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE13B022433E1ED0059A14B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE13B012433E1ED0059A14B /* VertexDashBoard.app */,
+				5FE13B152433E1F00059A14B /* VertexDashBoardTests.xctest */,
+				5FE13B202433E1F00059A14B /* VertexDashBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE13B032433E1ED0059A14B /* VertexDashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5FE13B042433E1ED0059A14B /* AppDelegate.swift */,
+				5FE13B062433E1ED0059A14B /* ViewController.swift */,
+				BA37F3722439CC5300D0DA7F /* ViewModel.swift */,
+				BA37F36F2439BE1A00D0DA7F /* VTXImagePicker.swift */,
+				5FE13B082433E1ED0059A14B /* Main.storyboard */,
+				5FE13B0B2433E1EF0059A14B /* Assets.xcassets */,
+				5FE13B0D2433E1EF0059A14B /* LaunchScreen.storyboard */,
+				5FE13B102433E1EF0059A14B /* Info.plist */,
+			);
+			path = VertexDashBoard;
+			sourceTree = "<group>";
+		};
+		5FE13B182433E1F00059A14B /* VertexDashBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE13B192433E1F00059A14B /* VertexDashBoardTests.swift */,
+				5FE13B1B2433E1F00059A14B /* Info.plist */,
+			);
+			path = VertexDashBoardTests;
+			sourceTree = "<group>";
+		};
+		5FE13B232433E1F00059A14B /* VertexDashBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE13B242433E1F00059A14B /* VertexDashBoardUITests.swift */,
+				5FE13B262433E1F00059A14B /* Info.plist */,
+			);
+			path = VertexDashBoardUITests;
+			sourceTree = "<group>";
+		};
+		B51013497C238EF5832A7B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1742503596A309FE651A14A /* libPods-VertexDashBoard.a */,
+				9BB5E921C711A10C68127910 /* libPods-VertexDashBoardTests.a */,
+				14331BA01342E597A20B9290 /* libPods-VertexDashBoardUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE13B002433E1ED0059A14B /* VertexDashBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE13B292433E1F00059A14B /* Build configuration list for PBXNativeTarget "VertexDashBoard" */;
+			buildPhases = (
+				6D522A48AD663AF9DD0FA40B /* [CP] Check Pods Manifest.lock */,
+				5FE13AFD2433E1ED0059A14B /* Sources */,
+				5FE13AFE2433E1ED0059A14B /* Frameworks */,
+				5FE13AFF2433E1ED0059A14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VertexDashBoard;
+			productName = VertexDashBoard;
+			productReference = 5FE13B012433E1ED0059A14B /* VertexDashBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE13B142433E1F00059A14B /* VertexDashBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE13B2C2433E1F00059A14B /* Build configuration list for PBXNativeTarget "VertexDashBoardTests" */;
+			buildPhases = (
+				D48EF84EA17E98F83A2E4129 /* [CP] Check Pods Manifest.lock */,
+				5FE13B112433E1F00059A14B /* Sources */,
+				5FE13B122433E1F00059A14B /* Frameworks */,
+				5FE13B132433E1F00059A14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE13B172433E1F00059A14B /* PBXTargetDependency */,
+			);
+			name = VertexDashBoardTests;
+			productName = VertexDashBoardTests;
+			productReference = 5FE13B152433E1F00059A14B /* VertexDashBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FE13B1F2433E1F00059A14B /* VertexDashBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE13B2F2433E1F00059A14B /* Build configuration list for PBXNativeTarget "VertexDashBoardUITests" */;
+			buildPhases = (
+				33B1BFCE481D8A438AC2D6EA /* [CP] Check Pods Manifest.lock */,
+				5FE13B1C2433E1F00059A14B /* Sources */,
+				5FE13B1D2433E1F00059A14B /* Frameworks */,
+				5FE13B1E2433E1F00059A14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE13B222433E1F00059A14B /* PBXTargetDependency */,
+			);
+			name = VertexDashBoardUITests;
+			productName = VertexDashBoardUITests;
+			productReference = 5FE13B202433E1F00059A14B /* VertexDashBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE13AF92433E1ED0059A14B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Abhinav reddy Palem";
+				TargetAttributes = {
+					5FE13B002433E1ED0059A14B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5FE13B142433E1F00059A14B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5FE13B002433E1ED0059A14B;
+					};
+					5FE13B1F2433E1F00059A14B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5FE13B002433E1ED0059A14B;
+					};
+				};
+			};
+			buildConfigurationList = 5FE13AFC2433E1ED0059A14B /* Build configuration list for PBXProject "VertexDashBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE13AF82433E1ED0059A14B;
+			productRefGroup = 5FE13B022433E1ED0059A14B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE13B002433E1ED0059A14B /* VertexDashBoard */,
+				5FE13B142433E1F00059A14B /* VertexDashBoardTests */,
+				5FE13B1F2433E1F00059A14B /* VertexDashBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE13AFF2433E1ED0059A14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE13B0F2433E1EF0059A14B /* LaunchScreen.storyboard in Resources */,
+				5FE13B0C2433E1EF0059A14B /* Assets.xcassets in Resources */,
+				5FE13B0A2433E1ED0059A14B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE13B132433E1F00059A14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE13B1E2433E1F00059A14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33B1BFCE481D8A438AC2D6EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VertexDashBoardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D522A48AD663AF9DD0FA40B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VertexDashBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48EF84EA17E98F83A2E4129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VertexDashBoardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE13AFD2433E1ED0059A14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37F3702439BE1A00D0DA7F /* VTXImagePicker.swift in Sources */,
+				5FE13B072433E1ED0059A14B /* ViewController.swift in Sources */,
+				BA37F3732439CC5300D0DA7F /* ViewModel.swift in Sources */,
+				5FE13B052433E1ED0059A14B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE13B112433E1F00059A14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE13B1A2433E1F00059A14B /* VertexDashBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE13B1C2433E1F00059A14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE13B252433E1F00059A14B /* VertexDashBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE13B172433E1F00059A14B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE13B002433E1ED0059A14B /* VertexDashBoard */;
+			targetProxy = 5FE13B162433E1F00059A14B /* PBXContainerItemProxy */;
+		};
+		5FE13B222433E1F00059A14B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE13B002433E1ED0059A14B /* VertexDashBoard */;
+			targetProxy = 5FE13B212433E1F00059A14B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FE13B082433E1ED0059A14B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE13B092433E1ED0059A14B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE13B0D2433E1EF0059A14B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE13B0E2433E1EF0059A14B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE13B272433E1F00059A14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE13B282433E1F00059A14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE13B2A2433E1F00059A14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312179AE6E1FC3A8B6390A90 /* Pods-VertexDashBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VertexDashBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.dashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE13B2B2433E1F00059A14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9934498520EAFD6F02FF4D1 /* Pods-VertexDashBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VertexDashBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.dashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FE13B2D2433E1F00059A14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF1C19E635C422D33936FA3 /* Pods-VertexDashBoardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VertexDashBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xco.VertexDashBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VertexDashBoard.app/VertexDashBoard";
+			};
+			name = Debug;
+		};
+		5FE13B2E2433E1F00059A14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68279A9B3607FAD44B51596A /* Pods-VertexDashBoardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VertexDashBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xco.VertexDashBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VertexDashBoard.app/VertexDashBoard";
+			};
+			name = Release;
+		};
+		5FE13B302433E1F00059A14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F86D7FC00F548D28C4133C /* Pods-VertexDashBoardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VertexDashBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xco.VertexDashBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VertexDashBoard;
+			};
+			name = Debug;
+		};
+		5FE13B312433E1F00059A14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB79C9B8DCA7D2458B64C08C /* Pods-VertexDashBoardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VertexDashBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xco.VertexDashBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VertexDashBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE13AFC2433E1ED0059A14B /* Build configuration list for PBXProject "VertexDashBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE13B272433E1F00059A14B /* Debug */,
+				5FE13B282433E1F00059A14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE13B292433E1F00059A14B /* Build configuration list for PBXNativeTarget "VertexDashBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE13B2A2433E1F00059A14B /* Debug */,
+				5FE13B2B2433E1F00059A14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE13B2C2433E1F00059A14B /* Build configuration list for PBXNativeTarget "VertexDashBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE13B2D2433E1F00059A14B /* Debug */,
+				5FE13B2E2433E1F00059A14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE13B2F2433E1F00059A14B /* Build configuration list for PBXNativeTarget "VertexDashBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE13B302433E1F00059A14B /* Debug */,
+				5FE13B312433E1F00059A14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE13AF92433E1ED0059A14B /* Project object */;
+}

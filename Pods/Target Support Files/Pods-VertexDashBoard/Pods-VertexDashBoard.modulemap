@@ -1,0 +1,6 @@
+module Pods_VertexDashBoard {
+  umbrella header "Pods-VertexDashBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}
